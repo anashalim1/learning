@@ -1,0 +1,94 @@
+.toggle-checkbox:checked ~ .nav-container {
+  background-color: #171717;
+}
+
+.toggle-checkbox:checked ~ .nav-container h1 {
+  color: white;
+}
+.toggle-checkbox:checked ~ .nav-container i {
+  color: white;
+}
+
+.toggle-checkbox:checked ~ .enjoy-container {
+  background-color: #252525;
+}
+
+.toggle-checkbox:checked ~ .enjoy-container h2 {
+  color: white;
+}
+.toggle-checkbox:checked ~ .enjoy-container p {
+  color: #979b9f;
+}
+.toggle-checkbox:checked ~ .enjoy-container .booking-btn {
+  background-color: var(--dark-mode-color);
+  color: #171717;
+}
+.toggle-checkbox:checked ~ .enjoy-container .half-circle {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%,var(--dark-mode-color) 50%);
+}
+.toggle-checkbox:checked ~ .enjoy-container .video-btn {
+  color: white;
+}
+
+.toggle-checkbox:checked ~ .chef-container {
+  background-color: #202020;
+}
+
+.toggle-checkbox:checked ~ .chef-container p {
+  color: white;
+}
+.toggle-checkbox:checked ~ .chef-container span {
+  color: var(--dark-mode-color);
+}
+.toggle-checkbox:checked ~ .chef-container .chef-content {
+  background-color: #171717;
+}
+.toggle-checkbox:checked ~ .chef-container .chef-content h3 {
+  color: white;
+}
+.toggle-checkbox:checked ~ .chef-container .chef-content span {
+  color: white;
+}
+
+.toggle-checkbox:checked ~ .gallery-container {
+  background-color: #252525;
+}
+.toggle-checkbox:checked ~ .gallery-container p {
+  color: white;
+}
+.toggle-checkbox:checked ~ .gallery-container span {
+  color: var(--dark-mode-color);
+}
+
+.toggle-checkbox:checked ~ .contact-container {
+  background-color: #202020;
+}
+.toggle-checkbox:checked ~ .contact-container {
+  background-color: #252525;
+}
+.toggle-checkbox:checked ~ .contact-container p {
+  color: white;
+}
+.toggle-checkbox:checked ~ .contact-container span {
+  color: var(--dark-mode-color);
+}
+
+.toggle-checkbox:checked ~ .contact-container .contact-info {
+  background-color: #0d0d0d;
+}
+.toggle-checkbox:checked ~ .contact-container .contact-icon {
+  background-color: var(--dark-mode-color);
+}
+.toggle-checkbox:checked ~ .contact-container .contact-form {
+  background-color: #171717;
+}
+.toggle-checkbox:checked ~ .contact-container .submit-btn {
+  background-color: var(--dark-mode-color);
+}
+
+.toggle-checkbox:checked ~ .footer-container button {
+  background-color: var(--dark-mode-color);
+}
+.toggle-checkbox:checked ~ .footer-container .footer-contact i {
+  color: var(--dark-mode-color);
+}

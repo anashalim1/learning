@@ -1,0 +1,267 @@
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 24px; /* Increase root font size on mobile, making 1rem = 18px */
+  }
+  .navbar {
+    margin: 0 3%;
+    width: 90%;
+  }
+  .nav-links {
+    visibility: hidden;
+  }
+  .navbar h1 {
+    font-size: 3rem;
+  }
+  .navbar h1::after {
+    font-size: 3rem;
+  }
+  .navbar i {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .enjoy-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .enjoy-content {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 7.5rem;
+    transform: translateY(15%);
+    padding-bottom: 50%;
+  }
+  .enjoy {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+  }
+  .enjoy-img img {
+    height: 40rem;
+    width: 40rem;
+  }
+  .enjoy-btn {
+    flex-direction: column;
+  }
+  .enjoy h2 {
+    font-size: 6rem;
+  }
+  .enjoy p {
+    font-size: 1.5em;
+    line-height: 2.5rem;
+  }
+  .booking-btn {
+    border-radius: 73rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.5rem;
+  }
+  .video-btn {
+    font-size: 1.5rem;
+  }
+  .video-icon i {
+    font-size: 1.5rem;
+  }
+  .half-circle {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .chef-container {
+    padding-bottom: 7rem;
+  }
+  .chef-cards {
+    width: 90%;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .chef {
+    width: 98%;
+  }
+  .chef-header h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .chef-header p,
+  span {
+    font-size: 4.5rem;
+  }
+  .chef-content h3 {
+    font-size: 2.5rem;
+  }
+  .chef-content span,
+  p {
+    font-size: 1.8rem;
+  }
+
+  .chef-media i {
+    font-size: 2rem;
+  }
+  .chef-media ul {
+    gap: 2.5rem;
+    padding: 1.5rem 1rem;
+  }
+  .gallery-container {
+    padding-bottom: 7rem;
+  }
+  .gallery-header h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .gallery-header p,
+  span {
+    font-size: 4.5rem;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+  .gallery-content {
+    width: 95%;
+  }
+  .overlay-item {
+    text-align: center;
+  }
+  .overlay-item p {
+    font-size: 2rem;
+  }
+  .overlay-item h2 {
+    font-size: 2.5rem;
+  }
+.contact-container{
+    padding-bottom: 7rem;
+
+}
+  .contact-header h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .contact-header p,
+  span {
+    font-size: 6rem;
+  }
+
+  iframe {
+    width: 90%;
+    height: 800px;
+  }
+
+  .contact-info {
+    width: 100%;
+    padding: 1.5rem 10%;
+    margin: 0.5rem;
+  }
+  .contact-data h3 {
+    font-size: 2rem;
+  }
+  .contact-data p,
+  a {
+    font-size: 1.5rem;
+  }
+  .contact-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  .contact-icon i {
+    font-size: 2rem;
+  }
+  form {
+    gap: 1.5rem;
+  }
+
+  .name-mail {
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+  .name-mail input {
+    width: 90%;
+    padding: 1.5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+  .other-contact {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .contact-form input {
+    height: 5rem;
+  }
+  textarea.other-contact{
+    height: 19rem;
+  }
+
+  .submit-btn{
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem;
+  }
+
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2%;
+  }
+  .footer-data p{
+    font-size: 1.8rem;
+  }
+  .footer h3{
+    font-size: 1.8rem;
+
+  }
+ 
+  .subscribe p{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+
+  }
+  .footer-subscribe {
+    width: 95%;
+  }
+  .footer-data {
+    width: 90%;
+  }
+
+  .subscribe-mail{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .subscribe-mail input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  .subscribe-mail button{
+    width: 100%;
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    font-weight: 700;
+  }
+  .links i ,.links a{
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    font-weight: 700;
+  }
+  .links li{
+    padding-bottom: 1rem;
+  }
+  .footer-contact {
+    width: 90%;
+  }
+  .footer-contact span , .footer-contact i{
+    font-size: 1.8rem;
+    padding-right: 0.5rem;
+
+  }
+  .footer-contact li{
+    padding-bottom: 1rem;
+  }
+  .contact-map {
+    display: flex;
+    justify-content: center;
+  }
+}
